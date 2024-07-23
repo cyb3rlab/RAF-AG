@@ -8,7 +8,7 @@ This repository contains the code for RAF-AG, a powerful framework designed for 
 The framework main architecture:
 ![plot](./graphics/general_architecture.png)
 Example of input and output of the framework:
-![plot](./graphics/Frankenstein Campaign.png)
+![plot]("./graphics/Frankenstein Campaign.png")
 ## Prerequisites
 
 To ensure smooth execution, please follow these prerequisites:
