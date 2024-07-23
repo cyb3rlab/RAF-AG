@@ -1,5 +1,71 @@
-
 # RAF-AG: Report Analysis Framework for Automatic Attack Path Generation
+
+This repository contains the code for RAF-AG, a powerful framework designed for generating attack paths based on Cyber Threat Intelligence (CTI) reports. RAF-AG offers several key features:
+
+1. Generate attack paths for input CTI reports.
+2. Follow the sequential order of information presented in CTI reports, enabling a better understanding of causal relationships.
+3. Output attack paths that include MITRE ATT&CK technique IDs, facilitating future analysis of these reports.
+The framework main architecture:
+![plot](./graphics/general_architecture.png)
+Example of input and output of the framework:
+![plot](./graphics/Frankenstein Campaign.png)
+## Prerequisites
+
+To ensure smooth execution, please follow these prerequisites:
+
+- The source code is written in Python. We recommend creating a virtual environment to prevent conflicts with existing libraries on your system.
+- Install the required libraries by running the following command:
+
+```bash
+pip install -r /path/to/requirements.txt
+```
+
+- Download the pretrained language models for SpaCy. Both the `web_lg` and `web_tft` models are required. Use the following commands:
+
+```bash
+python -m spacy download en_core_web_lg
+python -m spacy download en_core_web_trf
+```
+
+- Install the Coreferee library to extract coreferences in text:
+
+```bash
+python -m coreferee install en
+```
+
+## Quick Start
+
+To start using RAF-AG, follow these steps:
+
+1. Place your CTI reports (each in a .txt format) in the `data/campaign/input` folder.
+2. Run the following command:
+
+```bash
+python3 main.py
+```
+
+3. Once the analysis is complete, you can find the results in the `data/campaign/decoding_result` folder. Each report's results can be identified by its corresponding ID.
+
+## Code Hierarchy
+
+RAF-AG is implemented using an object-oriented programming approach. The repository structure includes the following main folders and classes:
+
+- `classes`: Contains classes for different components of the framework, such as `Sentence`, `Paragraph`, `Procedure`, `Campaign`, and more.
+- `preprocessings.py`: Provides functions for text preprocessing.
+- `subject_verb_object_extraction.py`: Contains Python functions that represent grammar rules used to extract relations from sentence dependency trees.
+- `cosine_similarity.py`: Includes functions for extracting phrase embeddings and calculating cosine similarity.
+
+## Data Hierarchy
+
+The repository includes different types of data folders that you need to consider:
+
+- `data/campaign`: Contains input and output data related to CTI reports, including the input reports themselves, graph data, alignment results, and decoding results.
+- `data/procedure`: Stores raw data from ATT&CK, including procedure examples, graph data, and deduplicated graph data.
+- `data/meta data`: Contains meta data used in different stages of RAF-AG, including verb similarity data.
+- `data/patterns`: Includes generic regex patterns for working with ATT&CK-specific data.
+- `data/dictionarydata`: Stores dictionary data for the weak supervision approach in RAF-AG, with each JSON file representing a specific category.
+
+## Acknowledgements
 
 This is a code repo for RAF-AG paper. RAF-AG is a framework suitable for generating attack paths for Cyber Threat Intelligence report.
 Some usage of RAF-AG:
