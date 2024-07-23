@@ -1,0 +1,3042 @@
+{
+    "best": {
+        "0": [
+            {
+                "id": "relationship--8074dd43-75b7-432f-9e33-af3136d90c00",
+                "techID": "T1583.001",
+                "tech_name": "Domains",
+                "value": 0.8761601238536754,
+                "min_id": 59,
+                "order_ids": [
+                    59,
+                    58
+                ],
+                "sent_indexes": [
+                    13,
+                    13
+                ],
+                "combine_ids": [
+                    13012,
+                    13009
+                ],
+                "phrases": [
+                    {
+                        "source": {
+                            "start": 22,
+                            "end": 40,
+                            "text": "registered domains",
+                            "id": 5,
+                            "verbs": [
+                                "have"
+                            ],
+                            "label": [
+                                "NETWORK"
+                            ],
+                            "sent_index": 0,
+                            "type": "object"
+                        },
+                        "dest": {
+                            "start": 46,
+                            "end": 52,
+                            "text": "domain",
+                            "id": 12,
+                            "verbs": [
+                                "be"
+                            ],
+                            "label": [
+                                "NETWORK"
+                            ],
+                            "sent_index": 13,
+                            "type": "object"
+                        }
+                    },
+                    {
+                        "source": {
+                            "start": 45,
+                            "end": 47,
+                            "text": "C2",
+                            "id": 7,
+                            "label": [
+                                "NETWORK"
+                            ],
+                            "sent_index": 0,
+                            "type": "object"
+                        },
+                        "dest": {
+                            "start": 35,
+                            "end": 37,
+                            "text": "C2",
+                            "id": 9,
+                            "label": [
+                                "NETWORK"
+                            ],
+                            "sent_index": 13,
+                            "type": "subject"
+                        }
+                    }
+                ],
+                "location": 59
+            }
+        ],
+        "2": [
+            {
+                "id": "relationship--1a7f1f1e-511a-44bf-8d9e-fd3260febfc8",
+                "techID": "T1566.001",
+                "tech_name": "Spearphishing Attachment",
+                "value": 0.9114568556771661,
+                "min_id": 2,
+                "order_ids": [
+                    2,
+                    1
+                ],
+                "sent_indexes": [
+                    0,
+                    0
+                ],
+                "combine_ids": [
+                    13,
+                    9
+                ],
+                "phrases": [
+                    {
+                        "source": {
+                            "start": 19,
+                            "end": 25,
+                            "text": "emails",
+                            "id": 4,
+                            "verbs": [
+                                "send"
+                            ],
+                            "label": [
+                                "NETWORK"
+                            ],
+                            "sent_index": 0,
+                            "type": "object",
+                            "texts": [
+                                "emails"
+                            ]
+                        },
+                        "dest": {
+                            "start": 76,
+                            "end": 81,
+                            "text": "email",
+                            "id": 13,
+                            "verbs": [
+                                "use",
+                                "by"
+                            ],
+                            "label": [
+                                "NETWORK"
+                            ],
+                            "sent_index": 0,
+                            "type": "object"
+                        }
+                    },
+                    {
+                        "source": {
+                            "start": 41,
+                            "end": 67,
+                            "text": "Microsoft Office documents",
+                            "id": 9,
+                            "verbs": [
+                                "with"
+                            ],
+                            "label": [
+                                "DATA"
+                            ],
+                            "sent_index": 0,
+                            "type": "object",
+                            "texts": [
+                                "PDFs",
+                                "Microsoft Office documents"
+                            ]
+                        },
+                        "dest": {
+                            "start": 38,
+                            "end": 62,
+                            "text": "Microsoft Word documents",
+                            "id": 9,
+                            "verbs": [
+                                "send"
+                            ],
+                            "label": [
+                                "DATA"
+                            ],
+                            "sent_index": 0,
+                            "type": "object"
+                        }
+                    }
+                ],
+                "location": 2
+            }
+        ],
+        "4": [
+            {
+                "id": "relationship--6435a96b-f3b5-4a16-876f-901650257d36",
+                "techID": "T1083",
+                "tech_name": "File and Directory Discovery",
+                "value": 0.9276566598435922,
+                "min_id": 4,
+                "order_ids": [
+                    4
+                ],
+                "sent_indexes": [
+                    1
+                ],
+                "combine_ids": [
+                    1004
+                ],
+                "phrases": [
+                    {
+                        "source": {
+                            "start": 35,
+                            "end": 42,
+                            "text": "folders",
+                            "id": 5,
+                            "verbs": [
+                                "enumerate"
+                            ],
+                            "label": [
+                                "DATA",
+                                "DIRECTORY"
+                            ],
+                            "sent_index": 0,
+                            "type": "object",
+                            "texts": [
+                                "Desktop",
+                                "Documents",
+                                "folders",
+                                "AppData"
+                            ]
+                        },
+                        "dest": {
+                            "start": 19,
+                            "end": 27,
+                            "text": "document",
+                            "id": 4,
+                            "verbs": [
+                                "discover"
+                            ],
+                            "label": [
+                                "DATA"
+                            ],
+                            "sent_index": 1,
+                            "type": "object",
+                            "texts": [
+                                "document",
+                                "MinutesofMeeting-2May19.docx"
+                            ]
+                        }
+                    }
+                ],
+                "location": 4
+            }
+        ],
+        "6": [
+            {
+                "id": "relationship--80219528-7b8e-415a-b2f2-c3678bccc185",
+                "techID": "T1204.002",
+                "tech_name": "Malicious File",
+                "value": 0.9439994555470643,
+                "min_id": 6,
+                "order_ids": [
+                    5,
+                    6,
+                    2
+                ],
+                "sent_indexes": [
+                    2,
+                    2,
+                    0
+                ],
+                "combine_ids": [
+                    2003,
+                    2006,
+                    13
+                ],
+                "phrases": [
+                    {
+                        "source": {
+                            "start": 29,
+                            "end": 33,
+                            "text": "user",
+                            "id": 6,
+                            "label": [
+                                "USER"
+                            ],
+                            "sent_index": 0,
+                            "type": "subject"
+                        },
+                        "dest": {
+                            "start": 9,
+                            "end": 15,
+                            "text": "victim",
+                            "id": 3,
+                            "label": [
+                                "USER"
+                            ],
+                            "sent_index": 2,
+                            "type": "subject"
+                        }
+                    },
+                    {
+                        "source": {
+                            "start": 54,
+                            "end": 62,
+                            "text": "document",
+                            "id": 11,
+                            "verbs": [
+                                "open"
+                            ],
+                            "label": [
+                                "DATA"
+                            ],
+                            "sent_index": 0,
+                            "type": "subject",
+                            "texts": [
+                                "document",
+                                "archived file"
+                            ]
+                        },
+                        "dest": {
+                            "start": 26,
+                            "end": 34,
+                            "text": "document",
+                            "id": 6,
+                            "verbs": [
+                                "open"
+                            ],
+                            "label": [
+                                "DATA"
+                            ],
+                            "sent_index": 2,
+                            "type": "object"
+                        }
+                    },
+                    {
+                        "source": {
+                            "start": 93,
+                            "end": 98,
+                            "text": "email",
+                            "id": 17,
+                            "verbs": [
+                                "use"
+                            ],
+                            "label": [
+                                "NETWORK"
+                            ],
+                            "sent_index": 0,
+                            "type": "object"
+                        },
+                        "dest": {
+                            "start": 76,
+                            "end": 81,
+                            "text": "email",
+                            "id": 13,
+                            "verbs": [
+                                "use",
+                                "by"
+                            ],
+                            "label": [
+                                "NETWORK"
+                            ],
+                            "sent_index": 0,
+                            "type": "object"
+                        }
+                    }
+                ],
+                "location": 6
+            }
+        ],
+        "13": [
+            {
+                "techID": "T1203",
+                "techName": "Exploitation for Client Execution",
+                "value": 1.0,
+                "min_id": 13,
+                "location": 13,
+                "order_ids": [
+                    13
+                ],
+                "sent_indexes": [
+                    3
+                ]
+            }
+        ],
+        "18": [
+            {
+                "id": "relationship--0a558f22-0139-43d9-869b-ee0e71ac237d",
+                "techID": "T1005",
+                "tech_name": "Data from Local System",
+                "value": 0.8591429856217161,
+                "min_id": 18,
+                "order_ids": [
+                    18,
+                    15,
+                    16
+                ],
+                "sent_indexes": [
+                    4,
+                    3,
+                    3
+                ],
+                "combine_ids": [
+                    4006,
+                    3017,
+                    3019
+                ],
+                "phrases": [
+                    {
+                        "source": {
+                            "start": 19,
+                            "end": 24,
+                            "text": "files",
+                            "id": 4,
+                            "verbs": [
+                                "upload"
+                            ],
+                            "label": [
+                                "DATA"
+                            ],
+                            "sent_index": 0,
+                            "type": "object",
+                            "texts": [
+                                "files"
+                            ]
+                        },
+                        "dest": {
+                            "start": 23,
+                            "end": 27,
+                            "text": "file",
+                            "id": 6,
+                            "label": [
+                                "DATA"
+                            ],
+                            "sent_index": 4,
+                            "type": "subject"
+                        }
+                    },
+                    {
+                        "source": {
+                            "text": "victims",
+                            "start": 30,
+                            "end": 37,
+                            "id": 6,
+                            "label": [
+                                "USER"
+                            ],
+                            "sent_index": 0,
+                            "type": "object",
+                            "texts": [
+                                "victims",
+                                "victim"
+                            ],
+                            "verbs": []
+                        },
+                        "dest": {
+                            "text": "victim",
+                            "start": 97,
+                            "end": 103,
+                            "id": 17,
+                            "label": [
+                                "USER"
+                            ],
+                            "sent_index": 3,
+                            "type": "object"
+                        }
+                    },
+                    {
+                        "source": {
+                            "start": 39,
+                            "end": 47,
+                            "text": "machines",
+                            "id": 8,
+                            "verbs": [
+                                "from"
+                            ],
+                            "label": [
+                                "COMPONENT"
+                            ],
+                            "sent_index": 0,
+                            "type": "object",
+                            "texts": [
+                                "machine",
+                                "machines"
+                            ]
+                        },
+                        "dest": {
+                            "start": 106,
+                            "end": 113,
+                            "text": "machine",
+                            "id": 19,
+                            "label": [
+                                "COMPONENT"
+                            ],
+                            "sent_index": 3,
+                            "type": "object"
+                        }
+                    }
+                ],
+                "location": 18
+            }
+        ],
+        "19": [
+            {
+                "techID": "T1059.001",
+                "techName": "PowerShell",
+                "value": 1.0,
+                "min_id": 19,
+                "location": 19,
+                "order_ids": [
+                    19
+                ],
+                "sent_indexes": [
+                    4
+                ]
+            }
+        ],
+        "22": [
+            {
+                "id": "relationship--a7ad3949-0d4d-49a8-a2cd-3a0d5857ba92",
+                "techID": "T1547.001",
+                "tech_name": "Registry Run Keys / Startup Folder",
+                "value": 0.993629272450717,
+                "min_id": 22,
+                "order_ids": [
+                    22
+                ],
+                "sent_indexes": [
+                    4
+                ],
+                "combine_ids": [
+                    4020
+                ],
+                "phrases": [
+                    {
+                        "source": {
+                            "start": 26,
+                            "end": 37,
+                            "text": "persistence",
+                            "id": 5,
+                            "verbs": [
+                                "establish"
+                            ],
+                            "label": [
+                                "FUNCTION"
+                            ],
+                            "sent_index": 0,
+                            "type": "object"
+                        },
+                        "dest": {
+                            "start": 109,
+                            "end": 120,
+                            "text": "persistence",
+                            "id": 20,
+                            "verbs": [
+                                "set"
+                            ],
+                            "label": [
+                                "FUNCTION"
+                            ],
+                            "sent_index": 4,
+                            "type": "object"
+                        }
+                    }
+                ],
+                "location": 22
+            }
+        ],
+        "25": [
+            {
+                "techID": "T1127.001",
+                "techName": "MSBuild",
+                "value": 1.0,
+                "min_id": 25,
+                "location": 25,
+                "order_ids": [
+                    25
+                ],
+                "sent_indexes": [
+                    5
+                ]
+            }
+        ],
+        "26": [
+            {
+                "id": "relationship--e875898e-fa8e-41f9-90da-79cdfb748dba",
+                "techID": "T1127.001",
+                "tech_name": "MSBuild",
+                "value": 1.0000000178813935,
+                "min_id": 26,
+                "order_ids": [
+                    25,
+                    26
+                ],
+                "sent_indexes": [
+                    5,
+                    5
+                ],
+                "combine_ids": [
+                    5012,
+                    5017
+                ],
+                "phrases": [
+                    {
+                        "source": {
+                            "start": 23,
+                            "end": 30,
+                            "text": "MSbuild",
+                            "id": 5,
+                            "verbs": [
+                                "use"
+                            ],
+                            "label": [
+                                "FUNCTION"
+                            ],
+                            "sent_index": 0,
+                            "type": "object"
+                        },
+                        "dest": {
+                            "start": 62,
+                            "end": 69,
+                            "text": "MSbuild",
+                            "id": 12,
+                            "verbs": [
+                                "use"
+                            ],
+                            "label": [
+                                "FUNCTION"
+                            ],
+                            "sent_index": 5,
+                            "type": "object"
+                        }
+                    },
+                    {
+                        "source": {
+                            "start": 55,
+                            "end": 59,
+                            "text": "file",
+                            "id": 10,
+                            "verbs": [
+                                "execute"
+                            ],
+                            "label": [
+                                "DATA"
+                            ],
+                            "sent_index": 0,
+                            "type": "object"
+                        },
+                        "dest": {
+                            "start": 94,
+                            "end": 98,
+                            "text": "file",
+                            "id": 17,
+                            "verbs": [
+                                "execute"
+                            ],
+                            "label": [
+                                "DATA",
+                                "DIRECTORY"
+                            ],
+                            "sent_index": 5,
+                            "type": "object",
+                            "texts": [
+                                "file",
+                                "\"LOCALAPPDATA\\Intel\\instal.xml"
+                            ]
+                        }
+                    }
+                ],
+                "location": 26
+            }
+        ],
+        "41": [
+            {
+                "id": "relationship--121d2e76-5ba1-475d-9cf9-1046724abae1",
+                "techID": "T1059.003",
+                "tech_name": "Windows Command Shell",
+                "value": 0.999999976158142,
+                "min_id": 41,
+                "order_ids": [
+                    41,
+                    41,
+                    41
+                ],
+                "sent_indexes": [
+                    9,
+                    9,
+                    9
+                ],
+                "combine_ids": [
+                    9007,
+                    9007,
+                    9007
+                ],
+                "phrases": [
+                    {
+                        "source": {
+                            "start": 15,
+                            "end": 22,
+                            "text": "command",
+                            "id": 4,
+                            "verbs": [
+                                "have",
+                                "execute",
+                                "run"
+                            ],
+                            "label": [
+                                "FUNCTION"
+                            ],
+                            "sent_index": 0,
+                            "type": "object",
+                            "texts": [
+                                "command",
+                                "commands"
+                            ]
+                        },
+                        "dest": {
+                            "text": "command",
+                            "start": 33,
+                            "end": 42,
+                            "id": 7,
+                            "verbs": [
+                                "execute"
+                            ],
+                            "label": [
+                                "FUNCTION"
+                            ],
+                            "sent_index": 9,
+                            "type": "object"
+                        }
+                    },
+                    {
+                        "source": {
+                            "start": 30,
+                            "end": 37,
+                            "text": "cmd.exe",
+                            "id": 7,
+                            "verbs": [
+                                "launch",
+                                "execute",
+                                "run",
+                                "have",
+                                "use"
+                            ],
+                            "label": [
+                                "FUNCTION"
+                            ],
+                            "sent_index": 0,
+                            "type": "object",
+                            "texts": [
+                                "command line",
+                                "cmd",
+                                "commands",
+                                "cmd.exe",
+                                "command"
+                            ]
+                        },
+                        "dest": {
+                            "text": "command",
+                            "start": 33,
+                            "end": 42,
+                            "id": 7,
+                            "verbs": [
+                                "execute"
+                            ],
+                            "label": [
+                                "FUNCTION"
+                            ],
+                            "sent_index": 9,
+                            "type": "object"
+                        }
+                    },
+                    {
+                        "source": {
+                            "start": 49,
+                            "end": 57,
+                            "text": "commands",
+                            "id": 10,
+                            "verbs": [
+                                "execute",
+                                "have",
+                                "run"
+                            ],
+                            "label": [
+                                "FUNCTION"
+                            ],
+                            "sent_index": 0,
+                            "type": "object",
+                            "texts": [
+                                "command",
+                                "commands"
+                            ]
+                        },
+                        "dest": {
+                            "text": "command",
+                            "start": 33,
+                            "end": 42,
+                            "id": 7,
+                            "verbs": [
+                                "execute"
+                            ],
+                            "label": [
+                                "FUNCTION"
+                            ],
+                            "sent_index": 9,
+                            "type": "object"
+                        }
+                    }
+                ],
+                "location": 41
+            }
+        ],
+        "48": [
+            {
+                "id": "relationship--d87615c7-501a-4b78-87fb-ba2c1a2faffb",
+                "techID": "T1140",
+                "tech_name": "Deobfuscate/Decode Files or Information",
+                "value": 1.0000000268220903,
+                "min_id": 48,
+                "order_ids": [
+                    44,
+                    47,
+                    47,
+                    48
+                ],
+                "sent_indexes": [
+                    9,
+                    10,
+                    10,
+                    10
+                ],
+                "combine_ids": [
+                    9019,
+                    10009,
+                    10009,
+                    10015
+                ],
+                "phrases": [
+                    {
+                        "source": {
+                            "start": 31,
+                            "end": 54,
+                            "text": "Base64-encoded commands",
+                            "id": 6,
+                            "verbs": [
+                                "deobfuscate"
+                            ],
+                            "label": [
+                                "FUNCTION"
+                            ],
+                            "sent_index": 0,
+                            "type": "object"
+                        },
+                        "dest": {
+                            "start": 88,
+                            "end": 111,
+                            "text": "base64-encoded commands",
+                            "id": 19,
+                            "verbs": [
+                                "deobfuscate"
+                            ],
+                            "label": [
+                                "FUNCTION"
+                            ],
+                            "sent_index": 9,
+                            "type": "object"
+                        }
+                    },
+                    {
+                        "source": {
+                            "start": 94,
+                            "end": 100,
+                            "text": "script",
+                            "id": 13,
+                            "label": [
+                                "FUNCTION"
+                            ],
+                            "sent_index": 0,
+                            "type": "object"
+                        },
+                        "dest": {
+                            "start": 35,
+                            "end": 41,
+                            "text": "script",
+                            "id": 9,
+                            "verbs": [
+                                "reveal"
+                            ],
+                            "label": [
+                                "FUNCTION"
+                            ],
+                            "sent_index": 10,
+                            "type": "object"
+                        }
+                    },
+                    {
+                        "source": {
+                            "start": 125,
+                            "end": 131,
+                            "text": "script",
+                            "id": 19,
+                            "verbs": [
+                                "reveal"
+                            ],
+                            "label": [
+                                "FUNCTION"
+                            ],
+                            "sent_index": 0,
+                            "type": "object"
+                        },
+                        "dest": {
+                            "start": 35,
+                            "end": 41,
+                            "text": "script",
+                            "id": 9,
+                            "verbs": [
+                                "reveal"
+                            ],
+                            "label": [
+                                "FUNCTION"
+                            ],
+                            "sent_index": 10,
+                            "type": "object"
+                        }
+                    },
+                    {
+                        "source": {
+                            "start": 165,
+                            "end": 172,
+                            "text": "payload",
+                            "id": 25,
+                            "verbs": [
+                                "obtain"
+                            ],
+                            "label": [
+                                "FUNCTION"
+                            ],
+                            "sent_index": 0,
+                            "type": "object"
+                        },
+                        "dest": {
+                            "start": 75,
+                            "end": 82,
+                            "text": "payload",
+                            "id": 15,
+                            "verbs": [
+                                "obtain"
+                            ],
+                            "label": [
+                                "FUNCTION"
+                            ],
+                            "sent_index": 10,
+                            "type": "object"
+                        }
+                    }
+                ],
+                "location": 48
+            }
+        ],
+        "57": [
+            {
+                "id": "relationship--fa426e9e-7e77-4c1b-b03c-00a4ae45ac6c",
+                "techID": "T1573.001",
+                "tech_name": "Symmetric Cryptography",
+                "value": 0.9999999999999997,
+                "min_id": 57,
+                "order_ids": [
+                    56,
+                    57
+                ],
+                "sent_indexes": [
+                    12,
+                    12
+                ],
+                "combine_ids": [
+                    12019,
+                    12025
+                ],
+                "phrases": [
+                    {
+                        "source": {
+                            "start": 36,
+                            "end": 38,
+                            "text": "C2",
+                            "id": 6,
+                            "verbs": [
+                                "communicate"
+                            ],
+                            "label": [
+                                "NETWORK"
+                            ],
+                            "sent_index": 0,
+                            "type": "object"
+                        },
+                        "dest": {
+                            "start": 125,
+                            "end": 127,
+                            "text": "C2",
+                            "id": 19,
+                            "verbs": [
+                                "with",
+                                "communicate"
+                            ],
+                            "label": [
+                                "NETWORK"
+                            ],
+                            "sent_index": 12,
+                            "type": "object"
+                        }
+                    },
+                    {
+                        "source": {
+                            "start": 45,
+                            "end": 70,
+                            "text": "encrypted RC4 byte stream",
+                            "id": 12,
+                            "verbs": [
+                                "use"
+                            ],
+                            "label": [
+                                "ENCRYPTION",
+                                "DATA"
+                            ],
+                            "sent_index": 0,
+                            "type": "object",
+                            "texts": [
+                                "encrypted RC4 byte stream",
+                                "AES-CBC"
+                            ]
+                        },
+                        "dest": {
+                            "start": 134,
+                            "end": 159,
+                            "text": "encrypted RC4 byte stream",
+                            "id": 25,
+                            "verbs": [
+                                "use",
+                                "by"
+                            ],
+                            "label": [
+                                "DATA"
+                            ],
+                            "sent_index": 12,
+                            "type": "object"
+                        }
+                    }
+                ],
+                "location": 57
+            }
+        ],
+        "59": [
+            {
+                "id": "relationship--a01e5280-ae4f-4edd-bb57-e29e8426cc3b",
+                "techID": "T1008",
+                "tech_name": "Fallback Channels",
+                "value": 0.9115284448502744,
+                "min_id": 59,
+                "order_ids": [
+                    59,
+                    58
+                ],
+                "sent_indexes": [
+                    13,
+                    13
+                ],
+                "combine_ids": [
+                    13012,
+                    13009
+                ],
+                "phrases": [
+                    {
+                        "source": {
+                            "start": 27,
+                            "end": 34,
+                            "text": "domains",
+                            "id": 5,
+                            "verbs": [
+                                "use"
+                            ],
+                            "label": [
+                                "NETWORK"
+                            ],
+                            "sent_index": 0,
+                            "type": "object",
+                            "texts": [
+                                "domains",
+                                "protocols"
+                            ]
+                        },
+                        "dest": {
+                            "start": 46,
+                            "end": 52,
+                            "text": "domain",
+                            "id": 12,
+                            "verbs": [
+                                "be"
+                            ],
+                            "label": [
+                                "NETWORK"
+                            ],
+                            "sent_index": 13,
+                            "type": "object"
+                        }
+                    },
+                    {
+                        "source": {
+                            "start": 52,
+                            "end": 54,
+                            "text": "C2",
+                            "id": 9,
+                            "label": [
+                                "NETWORK"
+                            ],
+                            "sent_index": 0,
+                            "type": "object"
+                        },
+                        "dest": {
+                            "start": 35,
+                            "end": 37,
+                            "text": "C2",
+                            "id": 9,
+                            "label": [
+                                "NETWORK"
+                            ],
+                            "sent_index": 13,
+                            "type": "subject"
+                        }
+                    }
+                ],
+                "location": 59
+            }
+        ],
+        "67": [
+            {
+                "id": "relationship--16e90509-5ea2-48ff-8e09-686dcfddbb3b",
+                "techID": "T1059.001",
+                "tech_name": "PowerShell",
+                "value": 0.9128487767287918,
+                "min_id": 67,
+                "order_ids": [
+                    67,
+                    67
+                ],
+                "sent_indexes": [
+                    16,
+                    16
+                ],
+                "combine_ids": [
+                    16003,
+                    16003
+                ],
+                "phrases": [
+                    {
+                        "source": {
+                            "start": 29,
+                            "end": 47,
+                            "text": "PowerShell scripts",
+                            "id": 6,
+                            "verbs": [
+                                "execute"
+                            ],
+                            "label": [
+                                "FUNCTION"
+                            ],
+                            "sent_index": 0,
+                            "type": "object"
+                        },
+                        "dest": {
+                            "start": 4,
+                            "end": 21,
+                            "text": "PowerShell script",
+                            "id": 3,
+                            "label": [
+                                "FUNCTION"
+                            ],
+                            "sent_index": 16,
+                            "type": "subject"
+                        }
+                    },
+                    {
+                        "source": {
+                            "start": 61,
+                            "end": 80,
+                            "text": "PowerShell commands",
+                            "id": 10,
+                            "verbs": [
+                                "download"
+                            ],
+                            "label": [
+                                "FUNCTION"
+                            ],
+                            "sent_index": 0,
+                            "type": "object"
+                        },
+                        "dest": {
+                            "start": 4,
+                            "end": 21,
+                            "text": "PowerShell script",
+                            "id": 3,
+                            "label": [
+                                "FUNCTION"
+                            ],
+                            "sent_index": 16,
+                            "type": "subject"
+                        }
+                    }
+                ],
+                "location": 67
+            }
+        ],
+        "68": [
+            {
+                "id": "relationship--51742efe-5f0c-4fbf-9eb7-5e765a0a408f",
+                "techID": "T1018",
+                "tech_name": "Remote System Discovery",
+                "value": 0.9004040481541946,
+                "min_id": 68,
+                "order_ids": [
+                    68
+                ],
+                "sent_indexes": [
+                    16
+                ],
+                "combine_ids": [
+                    16009
+                ],
+                "phrases": [
+                    {
+                        "source": {
+                            "start": 32,
+                            "end": 43,
+                            "text": "remote host",
+                            "id": 8,
+                            "verbs": [
+                                "ping"
+                            ],
+                            "label": [
+                                "COMPONENT"
+                            ],
+                            "sent_index": 0,
+                            "type": "object"
+                        },
+                        "dest": {
+                            "start": 53,
+                            "end": 57,
+                            "text": "host",
+                            "id": 9,
+                            "verbs": [
+                                "enumerate"
+                            ],
+                            "label": [
+                                "COMPONENT"
+                            ],
+                            "sent_index": 16,
+                            "type": "object"
+                        }
+                    }
+                ],
+                "location": 68
+            }
+        ],
+        "69": [
+            {
+                "id": "relationship--041e8f9b-6cdb-44b3-aa37-a274a4de9a0b",
+                "techID": "T1082",
+                "tech_name": "System Information Discovery",
+                "value": 0.8708128921043188,
+                "min_id": 69,
+                "order_ids": [
+                    69
+                ],
+                "sent_indexes": [
+                    16
+                ],
+                "combine_ids": [
+                    16013
+                ],
+                "phrases": [
+                    {
+                        "source": {
+                            "start": 24,
+                            "end": 35,
+                            "text": "MAC address",
+                            "id": 5,
+                            "verbs": [
+                                "identify",
+                                "discover",
+                                "obtain",
+                                "capture",
+                                "retrieve",
+                                "gather",
+                                "collect"
+                            ],
+                            "label": [
+                                "OTHER",
+                                "DIRECTORY",
+                                "NETWORK",
+                                "DATA"
+                            ],
+                            "sent_index": 0,
+                            "type": "object",
+                            "texts": [
+                                "victim PC name",
+                                "serial number",
+                                "BIOS model",
+                                "OS version information",
+                                "MAC address",
+                                "hardware information",
+                                "system architecture",
+                                "system volume serial number",
+                                "OS information",
+                                "operating system version",
+                                "GUID",
+                                "CPU details",
+                                "battery status",
+                                "CPU information",
+                                "default language identifier",
+                                "machine name",
+                                "system memory status",
+                                "OS version",
+                                "system language",
+                                "Windows product name/version",
+                                "uptime",
+                                "PC name",
+                                "computer name",
+                                "processor information",
+                                "logical drives information",
+                                "processor architecture",
+                                "execution path",
+                                "system and user language settings",
+                                "victim machine information",
+                                "RAM size",
+                                "compromised host information",
+                                "volume information",
+                                "disk space information",
+                                "OS edition",
+                                "architecture information",
+                                "OS bit information",
+                                "memory space",
+                                "hostname",
+                                "computer names",
+                                "victim computer name",
+                                "machine role",
+                                "system information",
+                                "disk space"
+                            ]
+                        },
+                        "dest": {
+                            "start": 74,
+                            "end": 85,
+                            "text": "information",
+                            "id": 13,
+                            "verbs": [
+                                "find"
+                            ],
+                            "label": [
+                                "DATA"
+                            ],
+                            "sent_index": 16,
+                            "type": "object"
+                        }
+                    }
+                ],
+                "location": 69
+            }
+        ],
+        "70": [
+            {
+                "id": "relationship--20b14e6f-685d-4b88-9ab7-40f7beb99ec4",
+                "techID": "T1074.001",
+                "tech_name": "Local Data Staging",
+                "value": 0.9936293170402828,
+                "min_id": 70,
+                "order_ids": [
+                    70
+                ],
+                "sent_indexes": [
+                    17
+                ],
+                "combine_ids": [
+                    17004
+                ],
+                "phrases": [
+                    {
+                        "source": {
+                            "start": 31,
+                            "end": 42,
+                            "text": "information",
+                            "id": 5,
+                            "verbs": [
+                                "stage"
+                            ],
+                            "label": [
+                                "DATA"
+                            ],
+                            "sent_index": 0,
+                            "type": "object"
+                        },
+                        "dest": {
+                            "start": 24,
+                            "end": 35,
+                            "text": "information",
+                            "id": 4,
+                            "verbs": [
+                                "obtain"
+                            ],
+                            "label": [
+                                "DATA"
+                            ],
+                            "sent_index": 17,
+                            "type": "object"
+                        }
+                    }
+                ],
+                "location": 70
+            }
+        ],
+        "72": [
+            {
+                "id": "relationship--8a62bb3c-2019-4747-a5e8-137c788fca77",
+                "techID": "T1029",
+                "tech_name": "Scheduled Transfer",
+                "value": 0.891400882087062,
+                "min_id": 72,
+                "order_ids": [
+                    70,
+                    72
+                ],
+                "sent_indexes": [
+                    17,
+                    17
+                ],
+                "combine_ids": [
+                    17004,
+                    17016
+                ],
+                "phrases": [
+                    {
+                        "source": {
+                            "start": 19,
+                            "end": 23,
+                            "text": "data",
+                            "id": 4,
+                            "verbs": [
+                                "send"
+                            ],
+                            "label": [
+                                "DATA"
+                            ],
+                            "sent_index": 0,
+                            "type": "object"
+                        },
+                        "dest": {
+                            "start": 24,
+                            "end": 35,
+                            "text": "information",
+                            "id": 4,
+                            "verbs": [
+                                "obtain"
+                            ],
+                            "label": [
+                                "DATA"
+                            ],
+                            "sent_index": 17,
+                            "type": "object"
+                        }
+                    },
+                    {
+                        "source": {
+                            "start": 27,
+                            "end": 29,
+                            "text": "C2",
+                            "id": 6,
+                            "verbs": [
+                                "to"
+                            ],
+                            "label": [
+                                "NETWORK"
+                            ],
+                            "sent_index": 0,
+                            "type": "object"
+                        },
+                        "dest": {
+                            "start": 84,
+                            "end": 86,
+                            "text": "C2",
+                            "id": 16,
+                            "verbs": [
+                                "to"
+                            ],
+                            "label": [
+                                "NETWORK"
+                            ],
+                            "sent_index": 17,
+                            "type": "object"
+                        }
+                    }
+                ],
+                "location": 72
+            }
+        ]
+    },
+    "k2": {
+        "0": [
+            {
+                "id": "relationship--8074dd43-75b7-432f-9e33-af3136d90c00",
+                "techID": "T1583.001",
+                "tech_name": "Domains",
+                "value": 0.8761601238536754,
+                "min_id": 59,
+                "order_ids": [
+                    59,
+                    58
+                ],
+                "sent_indexes": [
+                    13,
+                    13
+                ],
+                "combine_ids": [
+                    13012,
+                    13009
+                ],
+                "phrases": [
+                    {
+                        "source": {
+                            "start": 22,
+                            "end": 40,
+                            "text": "registered domains",
+                            "id": 5,
+                            "verbs": [
+                                "have"
+                            ],
+                            "label": [
+                                "NETWORK"
+                            ],
+                            "sent_index": 0,
+                            "type": "object"
+                        },
+                        "dest": {
+                            "start": 46,
+                            "end": 52,
+                            "text": "domain",
+                            "id": 12,
+                            "verbs": [
+                                "be"
+                            ],
+                            "label": [
+                                "NETWORK"
+                            ],
+                            "sent_index": 13,
+                            "type": "object"
+                        }
+                    },
+                    {
+                        "source": {
+                            "start": 45,
+                            "end": 47,
+                            "text": "C2",
+                            "id": 7,
+                            "label": [
+                                "NETWORK"
+                            ],
+                            "sent_index": 0,
+                            "type": "object"
+                        },
+                        "dest": {
+                            "start": 35,
+                            "end": 37,
+                            "text": "C2",
+                            "id": 9,
+                            "label": [
+                                "NETWORK"
+                            ],
+                            "sent_index": 13,
+                            "type": "subject"
+                        }
+                    }
+                ],
+                "location": 59
+            }
+        ],
+        "2": [
+            {
+                "id": "relationship--1a7f1f1e-511a-44bf-8d9e-fd3260febfc8",
+                "techID": "T1566.001",
+                "tech_name": "Spearphishing Attachment",
+                "value": 0.9114568556771661,
+                "min_id": 2,
+                "order_ids": [
+                    2,
+                    1
+                ],
+                "sent_indexes": [
+                    0,
+                    0
+                ],
+                "combine_ids": [
+                    13,
+                    9
+                ],
+                "phrases": [
+                    {
+                        "source": {
+                            "start": 19,
+                            "end": 25,
+                            "text": "emails",
+                            "id": 4,
+                            "verbs": [
+                                "send"
+                            ],
+                            "label": [
+                                "NETWORK"
+                            ],
+                            "sent_index": 0,
+                            "type": "object",
+                            "texts": [
+                                "emails"
+                            ]
+                        },
+                        "dest": {
+                            "start": 76,
+                            "end": 81,
+                            "text": "email",
+                            "id": 13,
+                            "verbs": [
+                                "use",
+                                "by"
+                            ],
+                            "label": [
+                                "NETWORK"
+                            ],
+                            "sent_index": 0,
+                            "type": "object"
+                        }
+                    },
+                    {
+                        "source": {
+                            "start": 41,
+                            "end": 67,
+                            "text": "Microsoft Office documents",
+                            "id": 9,
+                            "verbs": [
+                                "with"
+                            ],
+                            "label": [
+                                "DATA"
+                            ],
+                            "sent_index": 0,
+                            "type": "object",
+                            "texts": [
+                                "PDFs",
+                                "Microsoft Office documents"
+                            ]
+                        },
+                        "dest": {
+                            "start": 38,
+                            "end": 62,
+                            "text": "Microsoft Word documents",
+                            "id": 9,
+                            "verbs": [
+                                "send"
+                            ],
+                            "label": [
+                                "DATA"
+                            ],
+                            "sent_index": 0,
+                            "type": "object"
+                        }
+                    }
+                ],
+                "location": 2
+            }
+        ],
+        "4": [
+            {
+                "id": "relationship--6435a96b-f3b5-4a16-876f-901650257d36",
+                "techID": "T1083",
+                "tech_name": "File and Directory Discovery",
+                "value": 0.9276566598435922,
+                "min_id": 4,
+                "order_ids": [
+                    4
+                ],
+                "sent_indexes": [
+                    1
+                ],
+                "combine_ids": [
+                    1004
+                ],
+                "phrases": [
+                    {
+                        "source": {
+                            "start": 35,
+                            "end": 42,
+                            "text": "folders",
+                            "id": 5,
+                            "verbs": [
+                                "enumerate"
+                            ],
+                            "label": [
+                                "DATA",
+                                "DIRECTORY"
+                            ],
+                            "sent_index": 0,
+                            "type": "object",
+                            "texts": [
+                                "Desktop",
+                                "Documents",
+                                "folders",
+                                "AppData"
+                            ]
+                        },
+                        "dest": {
+                            "start": 19,
+                            "end": 27,
+                            "text": "document",
+                            "id": 4,
+                            "verbs": [
+                                "discover"
+                            ],
+                            "label": [
+                                "DATA"
+                            ],
+                            "sent_index": 1,
+                            "type": "object",
+                            "texts": [
+                                "document",
+                                "MinutesofMeeting-2May19.docx"
+                            ]
+                        }
+                    }
+                ],
+                "location": 4
+            }
+        ],
+        "6": [
+            {
+                "id": "relationship--80219528-7b8e-415a-b2f2-c3678bccc185",
+                "techID": "T1204.002",
+                "tech_name": "Malicious File",
+                "value": 0.9439994555470643,
+                "min_id": 6,
+                "order_ids": [
+                    5,
+                    6,
+                    2
+                ],
+                "sent_indexes": [
+                    2,
+                    2,
+                    0
+                ],
+                "combine_ids": [
+                    2003,
+                    2006,
+                    13
+                ],
+                "phrases": [
+                    {
+                        "source": {
+                            "start": 29,
+                            "end": 33,
+                            "text": "user",
+                            "id": 6,
+                            "label": [
+                                "USER"
+                            ],
+                            "sent_index": 0,
+                            "type": "subject"
+                        },
+                        "dest": {
+                            "start": 9,
+                            "end": 15,
+                            "text": "victim",
+                            "id": 3,
+                            "label": [
+                                "USER"
+                            ],
+                            "sent_index": 2,
+                            "type": "subject"
+                        }
+                    },
+                    {
+                        "source": {
+                            "start": 54,
+                            "end": 62,
+                            "text": "document",
+                            "id": 11,
+                            "verbs": [
+                                "open"
+                            ],
+                            "label": [
+                                "DATA"
+                            ],
+                            "sent_index": 0,
+                            "type": "subject",
+                            "texts": [
+                                "document",
+                                "archived file"
+                            ]
+                        },
+                        "dest": {
+                            "start": 26,
+                            "end": 34,
+                            "text": "document",
+                            "id": 6,
+                            "verbs": [
+                                "open"
+                            ],
+                            "label": [
+                                "DATA"
+                            ],
+                            "sent_index": 2,
+                            "type": "object"
+                        }
+                    },
+                    {
+                        "source": {
+                            "start": 93,
+                            "end": 98,
+                            "text": "email",
+                            "id": 17,
+                            "verbs": [
+                                "use"
+                            ],
+                            "label": [
+                                "NETWORK"
+                            ],
+                            "sent_index": 0,
+                            "type": "object"
+                        },
+                        "dest": {
+                            "start": 76,
+                            "end": 81,
+                            "text": "email",
+                            "id": 13,
+                            "verbs": [
+                                "use",
+                                "by"
+                            ],
+                            "label": [
+                                "NETWORK"
+                            ],
+                            "sent_index": 0,
+                            "type": "object"
+                        }
+                    }
+                ],
+                "location": 6
+            }
+        ],
+        "13": [
+            {
+                "techID": "T1203",
+                "techName": "Exploitation for Client Execution",
+                "value": 1.0,
+                "min_id": 13,
+                "location": 13,
+                "order_ids": [
+                    13
+                ],
+                "sent_indexes": [
+                    3
+                ]
+            }
+        ],
+        "18": [
+            {
+                "id": "relationship--0a558f22-0139-43d9-869b-ee0e71ac237d",
+                "techID": "T1005",
+                "tech_name": "Data from Local System",
+                "value": 0.8591429856217161,
+                "min_id": 18,
+                "order_ids": [
+                    18,
+                    15,
+                    16
+                ],
+                "sent_indexes": [
+                    4,
+                    3,
+                    3
+                ],
+                "combine_ids": [
+                    4006,
+                    3017,
+                    3019
+                ],
+                "phrases": [
+                    {
+                        "source": {
+                            "start": 19,
+                            "end": 24,
+                            "text": "files",
+                            "id": 4,
+                            "verbs": [
+                                "upload"
+                            ],
+                            "label": [
+                                "DATA"
+                            ],
+                            "sent_index": 0,
+                            "type": "object",
+                            "texts": [
+                                "files"
+                            ]
+                        },
+                        "dest": {
+                            "start": 23,
+                            "end": 27,
+                            "text": "file",
+                            "id": 6,
+                            "label": [
+                                "DATA"
+                            ],
+                            "sent_index": 4,
+                            "type": "subject"
+                        }
+                    },
+                    {
+                        "source": {
+                            "text": "victims",
+                            "start": 30,
+                            "end": 37,
+                            "id": 6,
+                            "label": [
+                                "USER"
+                            ],
+                            "sent_index": 0,
+                            "type": "object",
+                            "texts": [
+                                "victims",
+                                "victim"
+                            ],
+                            "verbs": []
+                        },
+                        "dest": {
+                            "text": "victim",
+                            "start": 97,
+                            "end": 103,
+                            "id": 17,
+                            "label": [
+                                "USER"
+                            ],
+                            "sent_index": 3,
+                            "type": "object"
+                        }
+                    },
+                    {
+                        "source": {
+                            "start": 39,
+                            "end": 47,
+                            "text": "machines",
+                            "id": 8,
+                            "verbs": [
+                                "from"
+                            ],
+                            "label": [
+                                "COMPONENT"
+                            ],
+                            "sent_index": 0,
+                            "type": "object",
+                            "texts": [
+                                "machine",
+                                "machines"
+                            ]
+                        },
+                        "dest": {
+                            "start": 106,
+                            "end": 113,
+                            "text": "machine",
+                            "id": 19,
+                            "label": [
+                                "COMPONENT"
+                            ],
+                            "sent_index": 3,
+                            "type": "object"
+                        }
+                    }
+                ],
+                "location": 18
+            }
+        ],
+        "19": [
+            {
+                "techID": "T1059.001",
+                "techName": "PowerShell",
+                "value": 1.0,
+                "min_id": 19,
+                "location": 19,
+                "order_ids": [
+                    19
+                ],
+                "sent_indexes": [
+                    4
+                ]
+            }
+        ],
+        "22": [
+            {
+                "id": "relationship--a7ad3949-0d4d-49a8-a2cd-3a0d5857ba92",
+                "techID": "T1547.001",
+                "tech_name": "Registry Run Keys / Startup Folder",
+                "value": 0.993629272450717,
+                "min_id": 22,
+                "order_ids": [
+                    22
+                ],
+                "sent_indexes": [
+                    4
+                ],
+                "combine_ids": [
+                    4020
+                ],
+                "phrases": [
+                    {
+                        "source": {
+                            "start": 26,
+                            "end": 37,
+                            "text": "persistence",
+                            "id": 5,
+                            "verbs": [
+                                "establish"
+                            ],
+                            "label": [
+                                "FUNCTION"
+                            ],
+                            "sent_index": 0,
+                            "type": "object"
+                        },
+                        "dest": {
+                            "start": 109,
+                            "end": 120,
+                            "text": "persistence",
+                            "id": 20,
+                            "verbs": [
+                                "set"
+                            ],
+                            "label": [
+                                "FUNCTION"
+                            ],
+                            "sent_index": 4,
+                            "type": "object"
+                        }
+                    }
+                ],
+                "location": 22
+            }
+        ],
+        "25": [
+            {
+                "techID": "T1127.001",
+                "techName": "MSBuild",
+                "value": 1.0,
+                "min_id": 25,
+                "location": 25,
+                "order_ids": [
+                    25
+                ],
+                "sent_indexes": [
+                    5
+                ]
+            }
+        ],
+        "26": [
+            {
+                "id": "relationship--e875898e-fa8e-41f9-90da-79cdfb748dba",
+                "techID": "T1127.001",
+                "tech_name": "MSBuild",
+                "value": 1.0000000178813935,
+                "min_id": 26,
+                "order_ids": [
+                    25,
+                    26
+                ],
+                "sent_indexes": [
+                    5,
+                    5
+                ],
+                "combine_ids": [
+                    5012,
+                    5017
+                ],
+                "phrases": [
+                    {
+                        "source": {
+                            "start": 23,
+                            "end": 30,
+                            "text": "MSbuild",
+                            "id": 5,
+                            "verbs": [
+                                "use"
+                            ],
+                            "label": [
+                                "FUNCTION"
+                            ],
+                            "sent_index": 0,
+                            "type": "object"
+                        },
+                        "dest": {
+                            "start": 62,
+                            "end": 69,
+                            "text": "MSbuild",
+                            "id": 12,
+                            "verbs": [
+                                "use"
+                            ],
+                            "label": [
+                                "FUNCTION"
+                            ],
+                            "sent_index": 5,
+                            "type": "object"
+                        }
+                    },
+                    {
+                        "source": {
+                            "start": 55,
+                            "end": 59,
+                            "text": "file",
+                            "id": 10,
+                            "verbs": [
+                                "execute"
+                            ],
+                            "label": [
+                                "DATA"
+                            ],
+                            "sent_index": 0,
+                            "type": "object"
+                        },
+                        "dest": {
+                            "start": 94,
+                            "end": 98,
+                            "text": "file",
+                            "id": 17,
+                            "verbs": [
+                                "execute"
+                            ],
+                            "label": [
+                                "DATA",
+                                "DIRECTORY"
+                            ],
+                            "sent_index": 5,
+                            "type": "object",
+                            "texts": [
+                                "file",
+                                "\"LOCALAPPDATA\\Intel\\instal.xml"
+                            ]
+                        }
+                    }
+                ],
+                "location": 26
+            }
+        ],
+        "41": [
+            {
+                "id": "relationship--121d2e76-5ba1-475d-9cf9-1046724abae1",
+                "techID": "T1059.003",
+                "tech_name": "Windows Command Shell",
+                "value": 0.999999976158142,
+                "min_id": 41,
+                "order_ids": [
+                    41,
+                    41,
+                    41
+                ],
+                "sent_indexes": [
+                    9,
+                    9,
+                    9
+                ],
+                "combine_ids": [
+                    9007,
+                    9007,
+                    9007
+                ],
+                "phrases": [
+                    {
+                        "source": {
+                            "start": 15,
+                            "end": 22,
+                            "text": "command",
+                            "id": 4,
+                            "verbs": [
+                                "have",
+                                "execute",
+                                "run"
+                            ],
+                            "label": [
+                                "FUNCTION"
+                            ],
+                            "sent_index": 0,
+                            "type": "object",
+                            "texts": [
+                                "command",
+                                "commands"
+                            ]
+                        },
+                        "dest": {
+                            "text": "command",
+                            "start": 33,
+                            "end": 42,
+                            "id": 7,
+                            "verbs": [
+                                "execute"
+                            ],
+                            "label": [
+                                "FUNCTION"
+                            ],
+                            "sent_index": 9,
+                            "type": "object"
+                        }
+                    },
+                    {
+                        "source": {
+                            "start": 30,
+                            "end": 37,
+                            "text": "cmd.exe",
+                            "id": 7,
+                            "verbs": [
+                                "launch",
+                                "execute",
+                                "run",
+                                "have",
+                                "use"
+                            ],
+                            "label": [
+                                "FUNCTION"
+                            ],
+                            "sent_index": 0,
+                            "type": "object",
+                            "texts": [
+                                "command line",
+                                "cmd",
+                                "commands",
+                                "cmd.exe",
+                                "command"
+                            ]
+                        },
+                        "dest": {
+                            "text": "command",
+                            "start": 33,
+                            "end": 42,
+                            "id": 7,
+                            "verbs": [
+                                "execute"
+                            ],
+                            "label": [
+                                "FUNCTION"
+                            ],
+                            "sent_index": 9,
+                            "type": "object"
+                        }
+                    },
+                    {
+                        "source": {
+                            "start": 49,
+                            "end": 57,
+                            "text": "commands",
+                            "id": 10,
+                            "verbs": [
+                                "execute",
+                                "have",
+                                "run"
+                            ],
+                            "label": [
+                                "FUNCTION"
+                            ],
+                            "sent_index": 0,
+                            "type": "object",
+                            "texts": [
+                                "command",
+                                "commands"
+                            ]
+                        },
+                        "dest": {
+                            "text": "command",
+                            "start": 33,
+                            "end": 42,
+                            "id": 7,
+                            "verbs": [
+                                "execute"
+                            ],
+                            "label": [
+                                "FUNCTION"
+                            ],
+                            "sent_index": 9,
+                            "type": "object"
+                        }
+                    }
+                ],
+                "location": 41
+            }
+        ],
+        "48": [
+            {
+                "id": "relationship--d87615c7-501a-4b78-87fb-ba2c1a2faffb",
+                "techID": "T1140",
+                "tech_name": "Deobfuscate/Decode Files or Information",
+                "value": 1.0000000268220903,
+                "min_id": 48,
+                "order_ids": [
+                    44,
+                    47,
+                    47,
+                    48
+                ],
+                "sent_indexes": [
+                    9,
+                    10,
+                    10,
+                    10
+                ],
+                "combine_ids": [
+                    9019,
+                    10009,
+                    10009,
+                    10015
+                ],
+                "phrases": [
+                    {
+                        "source": {
+                            "start": 31,
+                            "end": 54,
+                            "text": "Base64-encoded commands",
+                            "id": 6,
+                            "verbs": [
+                                "deobfuscate"
+                            ],
+                            "label": [
+                                "FUNCTION"
+                            ],
+                            "sent_index": 0,
+                            "type": "object"
+                        },
+                        "dest": {
+                            "start": 88,
+                            "end": 111,
+                            "text": "base64-encoded commands",
+                            "id": 19,
+                            "verbs": [
+                                "deobfuscate"
+                            ],
+                            "label": [
+                                "FUNCTION"
+                            ],
+                            "sent_index": 9,
+                            "type": "object"
+                        }
+                    },
+                    {
+                        "source": {
+                            "start": 94,
+                            "end": 100,
+                            "text": "script",
+                            "id": 13,
+                            "label": [
+                                "FUNCTION"
+                            ],
+                            "sent_index": 0,
+                            "type": "object"
+                        },
+                        "dest": {
+                            "start": 35,
+                            "end": 41,
+                            "text": "script",
+                            "id": 9,
+                            "verbs": [
+                                "reveal"
+                            ],
+                            "label": [
+                                "FUNCTION"
+                            ],
+                            "sent_index": 10,
+                            "type": "object"
+                        }
+                    },
+                    {
+                        "source": {
+                            "start": 125,
+                            "end": 131,
+                            "text": "script",
+                            "id": 19,
+                            "verbs": [
+                                "reveal"
+                            ],
+                            "label": [
+                                "FUNCTION"
+                            ],
+                            "sent_index": 0,
+                            "type": "object"
+                        },
+                        "dest": {
+                            "start": 35,
+                            "end": 41,
+                            "text": "script",
+                            "id": 9,
+                            "verbs": [
+                                "reveal"
+                            ],
+                            "label": [
+                                "FUNCTION"
+                            ],
+                            "sent_index": 10,
+                            "type": "object"
+                        }
+                    },
+                    {
+                        "source": {
+                            "start": 165,
+                            "end": 172,
+                            "text": "payload",
+                            "id": 25,
+                            "verbs": [
+                                "obtain"
+                            ],
+                            "label": [
+                                "FUNCTION"
+                            ],
+                            "sent_index": 0,
+                            "type": "object"
+                        },
+                        "dest": {
+                            "start": 75,
+                            "end": 82,
+                            "text": "payload",
+                            "id": 15,
+                            "verbs": [
+                                "obtain"
+                            ],
+                            "label": [
+                                "FUNCTION"
+                            ],
+                            "sent_index": 10,
+                            "type": "object"
+                        }
+                    }
+                ],
+                "location": 48
+            }
+        ],
+        "57": [
+            {
+                "id": "relationship--fa426e9e-7e77-4c1b-b03c-00a4ae45ac6c",
+                "techID": "T1573.001",
+                "tech_name": "Symmetric Cryptography",
+                "value": 0.9999999999999997,
+                "min_id": 57,
+                "order_ids": [
+                    56,
+                    57
+                ],
+                "sent_indexes": [
+                    12,
+                    12
+                ],
+                "combine_ids": [
+                    12019,
+                    12025
+                ],
+                "phrases": [
+                    {
+                        "source": {
+                            "start": 36,
+                            "end": 38,
+                            "text": "C2",
+                            "id": 6,
+                            "verbs": [
+                                "communicate"
+                            ],
+                            "label": [
+                                "NETWORK"
+                            ],
+                            "sent_index": 0,
+                            "type": "object"
+                        },
+                        "dest": {
+                            "start": 125,
+                            "end": 127,
+                            "text": "C2",
+                            "id": 19,
+                            "verbs": [
+                                "with",
+                                "communicate"
+                            ],
+                            "label": [
+                                "NETWORK"
+                            ],
+                            "sent_index": 12,
+                            "type": "object"
+                        }
+                    },
+                    {
+                        "source": {
+                            "start": 45,
+                            "end": 70,
+                            "text": "encrypted RC4 byte stream",
+                            "id": 12,
+                            "verbs": [
+                                "use"
+                            ],
+                            "label": [
+                                "ENCRYPTION",
+                                "DATA"
+                            ],
+                            "sent_index": 0,
+                            "type": "object",
+                            "texts": [
+                                "encrypted RC4 byte stream",
+                                "AES-CBC"
+                            ]
+                        },
+                        "dest": {
+                            "start": 134,
+                            "end": 159,
+                            "text": "encrypted RC4 byte stream",
+                            "id": 25,
+                            "verbs": [
+                                "use",
+                                "by"
+                            ],
+                            "label": [
+                                "DATA"
+                            ],
+                            "sent_index": 12,
+                            "type": "object"
+                        }
+                    }
+                ],
+                "location": 57
+            }
+        ],
+        "59": [
+            {
+                "id": "relationship--a01e5280-ae4f-4edd-bb57-e29e8426cc3b",
+                "techID": "T1008",
+                "tech_name": "Fallback Channels",
+                "value": 0.9115284448502744,
+                "min_id": 59,
+                "order_ids": [
+                    59,
+                    58
+                ],
+                "sent_indexes": [
+                    13,
+                    13
+                ],
+                "combine_ids": [
+                    13012,
+                    13009
+                ],
+                "phrases": [
+                    {
+                        "source": {
+                            "start": 27,
+                            "end": 34,
+                            "text": "domains",
+                            "id": 5,
+                            "verbs": [
+                                "use"
+                            ],
+                            "label": [
+                                "NETWORK"
+                            ],
+                            "sent_index": 0,
+                            "type": "object",
+                            "texts": [
+                                "domains",
+                                "protocols"
+                            ]
+                        },
+                        "dest": {
+                            "start": 46,
+                            "end": 52,
+                            "text": "domain",
+                            "id": 12,
+                            "verbs": [
+                                "be"
+                            ],
+                            "label": [
+                                "NETWORK"
+                            ],
+                            "sent_index": 13,
+                            "type": "object"
+                        }
+                    },
+                    {
+                        "source": {
+                            "start": 52,
+                            "end": 54,
+                            "text": "C2",
+                            "id": 9,
+                            "label": [
+                                "NETWORK"
+                            ],
+                            "sent_index": 0,
+                            "type": "object"
+                        },
+                        "dest": {
+                            "start": 35,
+                            "end": 37,
+                            "text": "C2",
+                            "id": 9,
+                            "label": [
+                                "NETWORK"
+                            ],
+                            "sent_index": 13,
+                            "type": "subject"
+                        }
+                    }
+                ],
+                "location": 59
+            }
+        ],
+        "67": [
+            {
+                "id": "relationship--16e90509-5ea2-48ff-8e09-686dcfddbb3b",
+                "techID": "T1059.001",
+                "tech_name": "PowerShell",
+                "value": 0.9128487767287918,
+                "min_id": 67,
+                "order_ids": [
+                    67,
+                    67
+                ],
+                "sent_indexes": [
+                    16,
+                    16
+                ],
+                "combine_ids": [
+                    16003,
+                    16003
+                ],
+                "phrases": [
+                    {
+                        "source": {
+                            "start": 29,
+                            "end": 47,
+                            "text": "PowerShell scripts",
+                            "id": 6,
+                            "verbs": [
+                                "execute"
+                            ],
+                            "label": [
+                                "FUNCTION"
+                            ],
+                            "sent_index": 0,
+                            "type": "object"
+                        },
+                        "dest": {
+                            "start": 4,
+                            "end": 21,
+                            "text": "PowerShell script",
+                            "id": 3,
+                            "label": [
+                                "FUNCTION"
+                            ],
+                            "sent_index": 16,
+                            "type": "subject"
+                        }
+                    },
+                    {
+                        "source": {
+                            "start": 61,
+                            "end": 80,
+                            "text": "PowerShell commands",
+                            "id": 10,
+                            "verbs": [
+                                "download"
+                            ],
+                            "label": [
+                                "FUNCTION"
+                            ],
+                            "sent_index": 0,
+                            "type": "object"
+                        },
+                        "dest": {
+                            "start": 4,
+                            "end": 21,
+                            "text": "PowerShell script",
+                            "id": 3,
+                            "label": [
+                                "FUNCTION"
+                            ],
+                            "sent_index": 16,
+                            "type": "subject"
+                        }
+                    }
+                ],
+                "location": 67
+            }
+        ],
+        "68": [
+            {
+                "id": "relationship--51742efe-5f0c-4fbf-9eb7-5e765a0a408f",
+                "techID": "T1018",
+                "tech_name": "Remote System Discovery",
+                "value": 0.9004040481541946,
+                "min_id": 68,
+                "order_ids": [
+                    68
+                ],
+                "sent_indexes": [
+                    16
+                ],
+                "combine_ids": [
+                    16009
+                ],
+                "phrases": [
+                    {
+                        "source": {
+                            "start": 32,
+                            "end": 43,
+                            "text": "remote host",
+                            "id": 8,
+                            "verbs": [
+                                "ping"
+                            ],
+                            "label": [
+                                "COMPONENT"
+                            ],
+                            "sent_index": 0,
+                            "type": "object"
+                        },
+                        "dest": {
+                            "start": 53,
+                            "end": 57,
+                            "text": "host",
+                            "id": 9,
+                            "verbs": [
+                                "enumerate"
+                            ],
+                            "label": [
+                                "COMPONENT"
+                            ],
+                            "sent_index": 16,
+                            "type": "object"
+                        }
+                    }
+                ],
+                "location": 68
+            }
+        ],
+        "69": [
+            {
+                "id": "relationship--041e8f9b-6cdb-44b3-aa37-a274a4de9a0b",
+                "techID": "T1082",
+                "tech_name": "System Information Discovery",
+                "value": 0.8708128921043188,
+                "min_id": 69,
+                "order_ids": [
+                    69
+                ],
+                "sent_indexes": [
+                    16
+                ],
+                "combine_ids": [
+                    16013
+                ],
+                "phrases": [
+                    {
+                        "source": {
+                            "start": 24,
+                            "end": 35,
+                            "text": "MAC address",
+                            "id": 5,
+                            "verbs": [
+                                "identify",
+                                "discover",
+                                "obtain",
+                                "capture",
+                                "retrieve",
+                                "gather",
+                                "collect"
+                            ],
+                            "label": [
+                                "OTHER",
+                                "DIRECTORY",
+                                "NETWORK",
+                                "DATA"
+                            ],
+                            "sent_index": 0,
+                            "type": "object",
+                            "texts": [
+                                "victim PC name",
+                                "serial number",
+                                "BIOS model",
+                                "OS version information",
+                                "MAC address",
+                                "hardware information",
+                                "system architecture",
+                                "system volume serial number",
+                                "OS information",
+                                "operating system version",
+                                "GUID",
+                                "CPU details",
+                                "battery status",
+                                "CPU information",
+                                "default language identifier",
+                                "machine name",
+                                "system memory status",
+                                "OS version",
+                                "system language",
+                                "Windows product name/version",
+                                "uptime",
+                                "PC name",
+                                "computer name",
+                                "processor information",
+                                "logical drives information",
+                                "processor architecture",
+                                "execution path",
+                                "system and user language settings",
+                                "victim machine information",
+                                "RAM size",
+                                "compromised host information",
+                                "volume information",
+                                "disk space information",
+                                "OS edition",
+                                "architecture information",
+                                "OS bit information",
+                                "memory space",
+                                "hostname",
+                                "computer names",
+                                "victim computer name",
+                                "machine role",
+                                "system information",
+                                "disk space"
+                            ]
+                        },
+                        "dest": {
+                            "start": 74,
+                            "end": 85,
+                            "text": "information",
+                            "id": 13,
+                            "verbs": [
+                                "find"
+                            ],
+                            "label": [
+                                "DATA"
+                            ],
+                            "sent_index": 16,
+                            "type": "object"
+                        }
+                    }
+                ],
+                "location": 69
+            }
+        ],
+        "70": [
+            {
+                "id": "relationship--20b14e6f-685d-4b88-9ab7-40f7beb99ec4",
+                "techID": "T1074.001",
+                "tech_name": "Local Data Staging",
+                "value": 0.9936293170402828,
+                "min_id": 70,
+                "order_ids": [
+                    70
+                ],
+                "sent_indexes": [
+                    17
+                ],
+                "combine_ids": [
+                    17004
+                ],
+                "phrases": [
+                    {
+                        "source": {
+                            "start": 31,
+                            "end": 42,
+                            "text": "information",
+                            "id": 5,
+                            "verbs": [
+                                "stage"
+                            ],
+                            "label": [
+                                "DATA"
+                            ],
+                            "sent_index": 0,
+                            "type": "object"
+                        },
+                        "dest": {
+                            "start": 24,
+                            "end": 35,
+                            "text": "information",
+                            "id": 4,
+                            "verbs": [
+                                "obtain"
+                            ],
+                            "label": [
+                                "DATA"
+                            ],
+                            "sent_index": 17,
+                            "type": "object"
+                        }
+                    }
+                ],
+                "location": 70
+            }
+        ],
+        "72": [
+            {
+                "id": "relationship--8a62bb3c-2019-4747-a5e8-137c788fca77",
+                "techID": "T1029",
+                "tech_name": "Scheduled Transfer",
+                "value": 0.891400882087062,
+                "min_id": 72,
+                "order_ids": [
+                    70,
+                    72
+                ],
+                "sent_indexes": [
+                    17,
+                    17
+                ],
+                "combine_ids": [
+                    17004,
+                    17016
+                ],
+                "phrases": [
+                    {
+                        "source": {
+                            "start": 19,
+                            "end": 23,
+                            "text": "data",
+                            "id": 4,
+                            "verbs": [
+                                "send"
+                            ],
+                            "label": [
+                                "DATA"
+                            ],
+                            "sent_index": 0,
+                            "type": "object"
+                        },
+                        "dest": {
+                            "start": 24,
+                            "end": 35,
+                            "text": "information",
+                            "id": 4,
+                            "verbs": [
+                                "obtain"
+                            ],
+                            "label": [
+                                "DATA"
+                            ],
+                            "sent_index": 17,
+                            "type": "object"
+                        }
+                    },
+                    {
+                        "source": {
+                            "start": 27,
+                            "end": 29,
+                            "text": "C2",
+                            "id": 6,
+                            "verbs": [
+                                "to"
+                            ],
+                            "label": [
+                                "NETWORK"
+                            ],
+                            "sent_index": 0,
+                            "type": "object"
+                        },
+                        "dest": {
+                            "start": 84,
+                            "end": 86,
+                            "text": "C2",
+                            "id": 16,
+                            "verbs": [
+                                "to"
+                            ],
+                            "label": [
+                                "NETWORK"
+                            ],
+                            "sent_index": 17,
+                            "type": "object"
+                        }
+                    }
+                ],
+                "location": 72
+            }
+        ]
+    },
+    "full_path": [
+        "T1583.001",
+        "T1566.001",
+        "T1083",
+        "T1204.002",
+        "T1203",
+        "T1005",
+        "T1059.001",
+        "T1547.001",
+        "T1127.001",
+        "T1059.003",
+        "T1140",
+        "T1573.001",
+        "T1008",
+        "T1018",
+        "T1082",
+        "T1074.001",
+        "T1029"
+    ],
+    "top_k_path": {
+        "0": [
+            "T1583.001"
+        ],
+        "2": [
+            "T1566.001"
+        ],
+        "4": [
+            "T1083"
+        ],
+        "6": [
+            "T1204.002"
+        ],
+        "13": [
+            "T1203"
+        ],
+        "18": [
+            "T1005"
+        ],
+        "19": [
+            "T1059.001"
+        ],
+        "22": [
+            "T1547.001"
+        ],
+        "25": [
+            "T1127.001"
+        ],
+        "26": [
+            "T1127.001"
+        ],
+        "41": [
+            "T1059.003"
+        ],
+        "48": [
+            "T1140"
+        ],
+        "57": [
+            "T1573.001"
+        ],
+        "59": [
+            "T1008"
+        ],
+        "67": [
+            "T1059.001"
+        ],
+        "68": [
+            "T1018"
+        ],
+        "69": [
+            "T1082"
+        ],
+        "70": [
+            "T1074.001"
+        ],
+        "72": [
+            "T1029"
+        ]
+    }
+}

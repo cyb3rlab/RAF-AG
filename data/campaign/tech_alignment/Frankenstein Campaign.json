@@ -1,0 +1,62 @@
+{
+    "19": [
+        {
+            "techID": "T1059.001",
+            "techName": "PowerShell",
+            "value": 1.0,
+            "min_id": 19,
+            "location": 19,
+            "order_ids": [
+                19
+            ],
+            "sent_indexes": [
+                4
+            ]
+        }
+    ],
+    "13": [
+        {
+            "techID": "T1203",
+            "techName": "Exploitation for Client Execution",
+            "value": 1.0,
+            "min_id": 13,
+            "location": 13,
+            "order_ids": [
+                13
+            ],
+            "sent_indexes": [
+                3
+            ]
+        }
+    ],
+    "0": [
+        {
+            "techID": "T1592.002",
+            "techName": "Software",
+            "value": 1.0,
+            "min_id": 24,
+            "location": 24,
+            "order_ids": [
+                24
+            ],
+            "sent_indexes": [
+                4
+            ]
+        }
+    ],
+    "25": [
+        {
+            "techID": "T1127.001",
+            "techName": "MSBuild",
+            "value": 1.0,
+            "min_id": 25,
+            "location": 25,
+            "order_ids": [
+                25
+            ],
+            "sent_indexes": [
+                5
+            ]
+        }
+    ]
+}
