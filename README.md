@@ -7,9 +7,9 @@ This repository contains the code for RAF-AG, a powerful framework designed for 
 3. Output attack paths that include MITRE ATT&CK technique IDs, facilitating future analysis of these reports.
 An overview of RAF-AG is shown in the figure below. In RAF-AG, text data from MITRE ATT&CK (e.g., procedure examples) are transformed into graphs (the blue path). The graphs will establish the knowledge base of the framework. RAF-AG takes CTI reports as its main inputs. These CTI reports will also be transformed into graph (the red path).
 To analyze a specific report and generate its attack path (the black path), we conduct a graph alignment between the report graph and the framework's internal graphs. After that, the graph alignment results will be decoded into the attack paths. 
-![plot](./graphics/general_architecture.png)
+![plot](./graphics/general_architecture.pdf)
 Example of input and output of the framework:
-![plot](./graphics/Frankenstein_Campaign.png)
+![plot](./graphics/Frankenstein_Campaign.pdf)
 
 ## Prerequisites
 - The source code is written in Python language. A virtual env should be created to prevent conflicts with existing libraries in your system.
