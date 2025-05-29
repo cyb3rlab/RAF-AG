@@ -17,6 +17,6 @@ scikit_learn
 snorkel==0.9.9
 spacy==3.5.0
 tensorflow_hub==0.16.1
-tqdm==4.65.0
+tqdm
 spacy-transformers==1.2.5
 coreferee
